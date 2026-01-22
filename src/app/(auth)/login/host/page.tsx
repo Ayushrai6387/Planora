@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { auth } from "@/lib/firebase"; // Humari banayi hui file
+import { auth } from "../../../../lib/firebase";
 import { useRouter } from "next/navigation";
 import { Shield } from "lucide-react"; // Icon ke liye
 
